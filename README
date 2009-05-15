@@ -1,0 +1,12 @@
+
+This scheduler written in ruby will allow you to execute arbitrary ruby code written
+in the 'description' field of an ical calendar URL feed (such as those produced
+by Google Calendar).
+
+This project uses the following projects:
+* rubyredrick-ri_cal to parse and evaluate ical files
+* jmettraux-rufus-scheduler to schedule the (recurring) events and execute the ruby code
+  from the calendar
+
+Copyright (c) Klaas Jan Wierenga 2009
+
