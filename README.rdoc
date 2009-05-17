@@ -1,0 +1,60 @@
+= ical-scheduler
+
+* http://github.com/kjwierenga/ical-scheduler
+
+== DESCRIPTION:
+
+ical-scheduler executes arbitrary ruby code embedded in the comments of
+iCalendar (rfc2445) calendar events. The input can be an iCal file (.ics) or
+an iCal feed (such as provided by Google Calendar).
+
+This project uses the following projects:
+* rubyredrick-ri_cal to parse and evaluate ical files
+* jmettraux-rufus-scheduler to schedule the (recurring) events and execute the ruby code
+  from the calendar
+
+== FEATURES/PROBLEMS:
+
+* TODO (list of features or problems)
+
+== SYNOPSIS:
+
+  TODO (code sample of usage)
+
+== REQUIREMENTS:
+
+* rubyredrick-ri_cal
+* jmettraux-rufus-scheduler
+
+== INSTALL:
+
+* TODO (sudo gem install, anything else)
+
+== AUTHORS
+
+Klaas Jan Wierenga, k.j.wierenga@gmail.com
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2009 Klaas Jan Wierenga
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
